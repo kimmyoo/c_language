@@ -34,7 +34,5 @@ making s a pointer to that makes any writing operation on this memory illegal.
 While doing:
 char s[] = "Hello world";
 puts the literal string in read-only memory and copies the string to 
-newly allocated memory on the stack. Thus making
-s[0] = 'J';
-legal.
+newly allocated memory on the stack. Thus making s[0] = 'J' legal.
  */
